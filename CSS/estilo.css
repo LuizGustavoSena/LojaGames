@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+
+div.menu{
+    height: 70px;
+}
+div.navbar{
+    width: 100%;
+}
+div.esquerdo{
+    float: left;
+    width: 30%;
+    background-color: blue;
+}
+div.direito{
+    float: right;
+    width: 70%;
+    position: absolute;
+    display: inline;
+    background-color: blue;
+    font-size: 200%;
+}
+div.item{
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+}
+h1, a{
+    text-align: center;
+}
+h2{
+    padding-left: 5%;
+    color: white;
+}
+a{
+    font-family: Arial;
+    text-decoration: none;
+    float: right;
+    padding: 15px;
+    padding-right: 15%;
+    color: white;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+img{
+    width: 250px;
+    height: 300px;
+    padding-left: 6%;
+}
+span.titulo{
+    color: blue;
+    font-family: Verdana;
+}
